@@ -27,25 +27,25 @@ PRE LOADER
     left:0;
     right:0;
     bottom:0;
-    background-color:#fefefe;
+    background-color:black;
     z-index:99999;
     height:100%;
     width:100%;
     overflow:hidden !important;
 }
 .loaded{
-    width:60px;
-    height:60px;
-    position:absolute;
-    left:50%;
-    top:50%;
+    width:150px;
+    height:150px;
+    /*text-align: center;
+    position:relative;
+    top:50%;*/
+    margin: 300px auto;
     background-image:url(../images/loading.gif);
     background-repeat:no-repeat;
     background-position:center;
     /*background-size*/
     -moz-background-size:cover;
     background-size:cover;
-    margin:-20px 0 0 -20px;
 }
 
 
