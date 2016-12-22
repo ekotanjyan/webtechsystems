@@ -1897,7 +1897,7 @@ testimonial
 ======================*/
 
 .testimonial {
-    background: url(../images/testimonial.jpg) no-repeat center top fixed;
+    background: url(../images/home.jpg) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size:cover;
     background-size:cover;
@@ -2551,6 +2551,13 @@ TEAM
     margin-bottom: 16px;
     width: 250px;
     height: 250px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.team-member:hover img{
+    transform: scale(1.1, 1.1);
 }
 .team-member li i {
     font-size: 20px;
@@ -3393,4 +3400,10 @@ footer
     h3 {
         page-break-after: avoid;
     }
+}
+.team-member .info{
+    vertical-align: bottom;
+}
+.team-member .info h2{
+    height:88px;
 }

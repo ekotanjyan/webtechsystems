@@ -66,7 +66,8 @@
 
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#home" >Home</a></li>
-                            <li><a href="#services" >Service</a></li>                            
+                            <li><a href="#services">Service</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#team">Our team</a></li>
                             <li><a href="#contact" >Contact</a></li>
                         </ul>
@@ -91,7 +92,7 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
                             <div class="home-intro-subscribe">
-							<img src="images/biglogo.png" alt="WEBTECH" style="width:300px;margin:15px 0px;"/>
+							<img src="images/new-year-logo-light.png" alt="WEBTECH" style="width:300px;margin:15px 0px;"/>
                                 <!--Header text -->                               
                                 <h2>Wide range of <b>design</b> and <b>development</b> services</h2>
 								<h2>delivered with a personal experience.</h2>
@@ -240,7 +241,7 @@
 
         <!-- Portfolio Section-->
 
-        <section class="portfolio sections" id="portfolio1">
+        <section id="portfolio" class="portfolio sections" id="portfolio1">
             <div class="container">
                 <div class="row">
 
@@ -255,16 +256,16 @@ focused creative solutions.</h5></div>
 
                     <div class="row margin-bottom-twenty">
 
-                        <div class="col-sm-3 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                   <!--     <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio1.jpeg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio1.jpeg" class="img-rounded width-100" alt="">
+                                <img src="" class="img-rounded width-100" alt="">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
-                        </div><!-- /.col-sm-3 col -->
+                        </div>--><!-- /.col-sm-3 col -->
 
-                        <div class="col-sm-3 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                        <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio2.jpeg" class="over" data-lightbox-gallery="portfolio">
                                 <img src="images/portfolio/portfolio2.jpeg" class="img-rounded width-100" alt="">
@@ -273,7 +274,7 @@ focused creative solutions.</h5></div>
 
                         </div><!-- /.col-sm-3 col -->
 
-                        <div class="col-sm-3 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                        <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio3.jpg" class="over" data-lightbox-gallery="portfolio">
                                 <img src="images/portfolio/portfolio3.jpg" class="img-rounded width-100" alt="">
@@ -282,7 +283,7 @@ focused creative solutions.</h5></div>
 
                         </div><!-- /.col-sm-3 col -->
 
-                        <div class="col-sm-3 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                        <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio4.jpg" class="over"  data-lightbox-gallery="portfolio">
                                 <img src="images/portfolio/portfolio4.jpg" class="img-rounded width-100" alt="">
@@ -357,85 +358,86 @@ focused creative solutions.</h5></div>
                     <div class="col-sm-4">
                         <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
                             <img src="images/team/team1.jpg" class="img-rounded" alt="Team Member">
-                            <h2>Eduard Kotanjyan</h2>
-                            <h5>Founder &amp; CEO</h5>
+                            <div class="info">
+                                <h2>Eduard Kotanjyan</h2>
+                                <h5>Founder &amp; CEO</h5>
 
-                            <p class="space-top-small">
-                            </p>
-                        <ul class="list-inline">
-                          <li><a href="https://facebook.com/kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                          <li><a href="https://twitter.com/ekotanjyan" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="https://plus.google.com/106301857854308640452" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                          <li><a href="https://www.linkedin.com/in/eduard-kotanjyan-4b01549a" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <p class="space-top-small">
+                                </p>
+                                <ul class="list-inline">
+                                    <li><a href="https://facebook.com/kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/ekotanjyan" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://plus.google.com/106301857854308640452" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/eduard-kotanjyan-4b01549a" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 
-                        </ul>
+                                </ul>
+                            </div>
                         </div><!--end team member-->
                     </div>
 
                     <div class="col-sm-4">
                         <div class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
                             <img src="images/team/team2.jpg" class="img-rounded" alt="Team Member">
-                            <h2>Jon Daveyan</h2>
-                            <h5>Lead Developer</h5>
+                            <div class="info">
+                                <h2>Jon Daveyan</h2>
+                                <h5>Lead Developer</h5>
 
-                            <p class="space-top-small">
-                            </p>
-                            <ul class="list-inline">
-                                <li><a href="https://www.facebook.com/jon.daveyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            
-                               <li><a href="https://plus.google.com/109406581629586834663" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                               
-
-                            </ul>
+                                <p class="space-top-small">
+                                </p>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/jon.daveyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://plus.google.com/109406581629586834663" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
                         </div><!--end team member-->
                     </div>
                     <div class="col-sm-4">
                         <div class="team-member wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
                             <img src="images/team/team4.jpg" class="img-rounded" alt="Team Member">
-                            <h2>Paruyr Hakhverdyan</h2>
-                            <h5>Developer</h5>
+                            <div class="info">
+                                <h2>Paruyr Hakhverdyan</h2>
+                                <h5>Developer</h5>
+                                <p class="space-top-small">
+                                </p>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/paruir.hakhverdyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/paruir-hakhverdyan-00568560" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
 
-                            <p class="space-top-small">
-                            </p>
-                            <ul class="list-inline">
-                                <li><a href="https://www.facebook.com/paruir.hakhverdyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            
-                                <li><a href="https://www.linkedin.com/in/paruir-hakhverdyan-00568560" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                               
-
-                            </ul>
                         </div><!--end team member-->
                     </div>
                       
                        <div class="col-sm-4">
                        <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
                             <img src="images/team/team5.jpg" class="img-rounded" alt="Team Member">
-                            <h2>Lucy Hovhannisyan</h2>
-                            <h5>Project Manager</h5>
+                           <div class="info">
+                               <h2>Lucy Hovhannisyan</h2>
+                               <h5>Project Manager</h5>
 
-                            
-                            <ul class="list-inline">
-                                <li><a href="https://www.facebook.com/lucy.hovhannisyan.9" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        
-                            </ul>
+
+                               <ul class="list-inline">
+                                   <li><a href="https://www.facebook.com/lucy.hovhannisyan.9" target="_blank"><i class="fa fa-facebook"></i></a></li>
+
+                               </ul>
+                           </div>
                         </div><!--end team member-->
                         </div>
 
                     <div class="col-sm-4">
                        <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
                             <img src="images/team/team3.jpg" class="img-rounded" alt="Team Member">
-                            <h2>Hamlet Vardanyan</h2>
-                            <h5>Accountant</h5>
+                           <div class="info">
+                               <h2>Hamlet Vardanyan</h2>
+                               <h5>Accountant</h5>
 
-                            <p class="space-top-small">
-                            </p>
-                            <ul class="list-inline">
-                                <li><a href="https://www.facebook.com/hamletvardanyan25" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            
-                               
-                               
+                               <p class="space-top-small">
+                               </p>
+                               <ul class="list-inline">
+                                   <li><a href="https://www.facebook.com/hamletvardanyan25" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                               </ul>
+                           </div>
 
-                            </ul>
                         </div><!--end team member-->
    
                     </div>
@@ -443,13 +445,13 @@ focused creative solutions.</h5></div>
                      <div class="col-sm-4">
                        <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
                             <img src="images/team/team6.jpg" class="img-rounded" alt="Team Member">
-                            <h2>Shushanna Kotanjyan</h2>
-                            <h5>Project Manager</h5>
-
-                            
-                            <ul class="list-inline">
-                                <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            </ul>
+                           <div class="info">
+                               <h2>Shushanna Kotanjyan</h2>
+                               <h5>Project Manager</h5>
+                               <ul class="list-inline">
+                                   <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                               </ul>
+                           </div>
                         </div><!--end team member-->
    
                     </div>
