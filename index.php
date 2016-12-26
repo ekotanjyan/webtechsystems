@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>WebTech Systems</title>
-        <meta name="description" content="">
+        <meta name="description" content="We have built applications based on open source frameworks, including Drupal, Wordpress, Magento, Presashop, Joomla.
+										Our expertise includes PHP, MySql, Javascript, HTML5, CSS3, node.js, angular.js, express.js, WinJS, Yii, Codeigniter, Laravel, CakePHP, FuelPHP, Zend, Symfony, Kohana and many other cool frameworks and platforms.	">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="images/logo-light.png"/>
 
@@ -49,7 +50,7 @@
 
         <header>
             <!-- if you want dark nav bar just replace 2 css bottom line (av-dark navbar-inverse) and add this (nav-dark navbar-inverse)-->
-            <nav class="navbar navbar-1 nav-dark navbar-inverse navbar-fixed-top custom-nav" id="main-navbar" role="navigation">
+            <nav class="navbar navbar-1 nav-dark navbar-inverse navbar-fixed-top custom-nav" id="main-navbar">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -58,9 +59,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
+                        <div class="logo_side dib">
+                            <h1><a href="http://www.webtech-systems.com/" class="navbar-brand top-logo dib" data-selector="nav a" style="padding-top:10px;">
+                                Webtech Systems<!--<img src="images/logo-light.png" alt="logo" data-selector="img" style="">--></a>
+                            </h1>
+                        </div>
 
-                        <a href="/" class="navbar-brand top-logo" data-selector="nav a" style="padding-top:10px;"><img src="images/logo-light.png" alt="logo" data-selector="img" style=""></a>
+
                     </div>  <!--end navbar-header -->
+
+
 
                     <div class="collapse navbar-collapse" id="navbar-collapse">
 
@@ -92,7 +100,7 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
                             <div class="home-intro-subscribe">
-							<img src="images/new-year-logo-light.png" alt="WEBTECH" style="width:300px;margin:15px 0px;"/>
+							<img src="images/new-year-logo-light.png" class="dib" alt="WEBTECH" style="width:300px;margin:15px 0px;"/>
                                 <!--Header text -->                               
                                 <h2>Wide range of <b>design</b> and <b>development</b> services</h2>
 								<h2>delivered with a personal experience.</h2>
@@ -112,7 +120,7 @@
 
                     <!--  Heading-->
                     <div class="heading black-text wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="title text-center"><h1>Services</h1></div>
+                        <div class="title text-center"><h2>Services</h2></div>
                         <div class="subtitle text-center "><h5>We are providing many kind of services</h5></div>
                         <div class="separator text-center"></div>
                     </div>
@@ -120,16 +128,18 @@
                     <div class="col-sm-6 wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
                         <div class="feature-item text-right pull-left">
                             <div class="feature-icon2 text-right pull-right">
-                                <i class="fa fa-anchor" data-selector="i.fa" style="outline: none; cursor: default;"></i>
+                                <i class="fa fa-anchor dib" data-selector="i.fa" style="outline: none; cursor: default;"></i>
                             </div>
-                            <h4>Design</h4>
-                            <p>Imagination and inspiration used to achieve perfection</p>
+                            <div class="info-right">
+                                <h4>Design</h4>
+                                <p>Imagination and inspiration used to achieve perfection</p>
+                            </div>
                         </div>
                         <div class="feature-item text-right pull-left">
                             <div class="feature-icon2 text-right pull-right">
-                                <i class="fa fa-share" data-selector="i.fa" style="outline: none; cursor: default;"></i>
+                                <i class="fa fa-share dib" data-selector="i.fa" style="outline: none; cursor: default;"></i>
                             </div>
-                            <div class="feature-details">
+                            <div class="feature-details info-right">
                                 <h4>Branding</h4>
                                 <p>Your brand intrigues the hearts and minds of consumers</p>
                             </div>
@@ -137,10 +147,13 @@
                         </div>
                         <div class="feature-item text-right pull-left">
                             <div class="feature-icon2 text-right pull-right">
-                                <i class="fa fa-empire" data-selector="i.fa" style="outline: none; cursor: default;"></i>
+                                <i class="fa fa-empire dib" data-selector="i.fa" style="outline: none; cursor: default;"></i>
                             </div>
-                            <h4>Marketing</h4>
-                            <p>Creative strategy means more consumers.</p>
+                            <div class="info-right">
+                                <h4>Marketing</h4>
+                                <p>Creative strategy means more consumers.</p>
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-sm-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
@@ -148,23 +161,29 @@
                             <div class="feature-icon2 pull-left">
                                 <i class="fa fa-key" data-selector="i.fa" style="outline: none; cursor: default;"></i>
                             </div>
-                            <h4>Development</h4>
-                            <p>We develop smart sites and applications. Our developers have deep skills in both front-end and back-end development to support the needs of our clients.</p>
-                        </div>
+                            <div class="info-left">
+                                <h4>Development</h4>
+                                <p>We develop smart sites and applications. Our developers have deep skills in both front-end and back-end development to support the needs of our clients.</p>
+                            </div>
+                             </div>
                         <div class="feature-item pull-left">
-                            <div class="feature-icon2  pull-left">
+                                <div class="feature-icon2  pull-left">
                                 <i class="fa fa-fax" data-selector="i.fa" style="outline: none; cursor: default;"></i>
                             </div>
-                            <h4>QA & Testing</h4>
-                            <p>Our Quality Assurance process ensures that your website meets the highest possible standards on all levels.</p>
-                        </div>
+                            <div class="info-left">
+                                <h4>QA & Testing</h4>
+                                <p>Our Quality Assurance process ensures that your website meets the highest possible standards on all levels.</p>
+                            </div>
+                           </div>
                         <div class="feature-item pull-left">
                             <div class="feature-icon2 pull-left">
                                 <i class="fa fa-navicon" data-selector="i.fa" style="outline: none; cursor: default;"></i>
                             </div>
-                            <h4>Training</h4>
-                            <p>We think sharing is important - so we want to share our knowledge. We provide development and design trainings.</p>
-                        </div>
+                            <div class="info-left">
+                                <h4>Training</h4>
+                                <p>We think sharing is important - so we want to share our knowledge. We provide development and design trainings.</p>
+                            </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -183,8 +202,8 @@
                                         <i class="fa fa-quote-right pull-right"></i></div>
                                     <div class="white-separator"></div>
                                     <!--  INFORMATION -->
-                                    <div class="testimonial-name">E. Kotanjyan</div>
-                                    <div class="testimonial-info">CEO, Envato pty Ltd.</div>
+                                    <h2 class="testimonial-name">E. Kotanjyan</h2>
+                                    <h3 class="testimonial-info">CEO, Envato pty Ltd.</h3>
                                 </div>
                                 <div class="testimonial-item2">
                                     <div class="testimonial-msg"><i class="fa fa-quote-left"></i>
@@ -192,8 +211,8 @@
 										Our expertise includes PHP, MySql, Javascript, HTML5, CSS3, node.js, angular.js, express.js, WinJS, Yii, Codeigniter, Laravel, CakePHP, FuelPHP, Zend, Symfony, Kohana and many other cool frameworks and platforms.	                                        <i class="fa fa-quote-right pull-right"></i></div>
                                     <div class="white-separator"></div>
                                     <!--  INFORMATION -->
-                                    <div class="testimonial-name">J. Daveyan</div>
-                                    <div class="testimonial-info">Lead Developer</div>
+                                    <h2 class="testimonial-name">J. Daveyan</h2>
+                                    <h3 class="testimonial-info">Lead Developer</h3>
                                 </div>
                                 <div class="testimonial-item2">
                                     <div class="testimonial-msg"><i class="fa fa-quote-left"></i>
@@ -201,8 +220,8 @@
                                         <i class="fa fa-quote-right pull-right"></i></div>
                                     <div class="white-separator"></div>
                                     <!--  INFORMATION -->
-                                    <div class="testimonial-name">E. Kotanjyan</div>
-                                    <div class="testimonial-info">CEO, Envato pty Ltd.</div>
+                                    <h2 class="testimonial-name">E. Kotanjyan</h2>
+                                    <h3 class="testimonial-info">CEO, Envato pty Ltd.</h3>
                                 </div>
                             </div>
                         </div>
@@ -222,16 +241,16 @@
 
                         <!--  Heading-->
                         <div class="heading black-text wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <div class="title-half"><h1 style="font-size: 54px; line-height: 63px;">
+                            <div class="title-half"><h2 style="font-size: 54px; line-height: 63px;">
 							We create digital experiences for brands communicating the unique services provided to <strong>your</strong> customers.
-							</h1></div>
+							</h2></div>
                            
                         </div>                       
                     </div><!--end half-->
 
                     <div class="col-md-6 col-md-pull-6">
                         <div class="text-center describe-images wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
-                            <img src="images/describe-monitor1.png" alt="" data-selector="img" style="">
+                            <img src="images/describe-monitor1.png" alt="describe-monitor1" data-selector="img" style="">
                         </div>
                     </div>
                 </div><!--end row-->
@@ -241,13 +260,13 @@
 
         <!-- Portfolio Section-->
 
-        <section id="portfolio" class="portfolio sections" id="portfolio1">
+        <section id="portfolio" class="portfolio sections">
             <div class="container">
                 <div class="row">
 
                     <!--  Heading-->
                     <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="title text-center"><h1>Our Works</h1></div>
+                        <div class="title text-center"><h2>Our Works</h2></div>
                         <div class="subtitle text-center "><h5>We take an integrated approach to creating 
 highly engaging digital properties & brand 
 focused creative solutions.</h5></div>
@@ -259,7 +278,7 @@ focused creative solutions.</h5></div>
                    <!--     <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio1.jpeg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="" class="img-rounded width-100" alt="">
+                                <img src="" class="img-rounded width-100" alt="#">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -268,7 +287,7 @@ focused creative solutions.</h5></div>
                         <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio2.jpeg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio2.jpeg" class="img-rounded width-100" alt="">
+                                <img src="images/portfolio/portfolio2.jpeg" class="img-rounded img-portfolio width-100" alt="portfolio">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -277,7 +296,7 @@ focused creative solutions.</h5></div>
                         <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio3.jpg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio3.jpg" class="img-rounded width-100" alt="">
+                                <img src="images/portfolio/portfolio3.jpg" class="img-rounded img-portfolio width-100" alt="portfolio">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -286,7 +305,7 @@ focused creative solutions.</h5></div>
                         <div class="col-sm-4 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio4.jpg" class="over"  data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio4.jpg" class="img-rounded width-100" alt="">
+                                <img src="images/portfolio/portfolio4.jpg" class="img-rounded img-portfolio width-100" alt="portfolio">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -299,7 +318,7 @@ focused creative solutions.</h5></div>
                         <div class="col-sm-3 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio5.jpg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio5.jpg" class="img-rounded width-100" alt="">
+                                <img src="images/portfolio/portfolio5.jpg" class="img-rounded img-portfolio width-100" alt="portfolio">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -308,7 +327,7 @@ focused creative solutions.</h5></div>
                         <div class="col-sm-3">
 
                             <a href="images/portfolio/portfolio6.jpg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio6.jpg" class="img-rounded width-100" alt="">
+                                <img src="images/portfolio/portfolio6.jpg" class="img-rounded img-portfolio width-100" alt="portfolio">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -317,7 +336,7 @@ focused creative solutions.</h5></div>
                         <div class="col-sm-3 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio7.jpg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio7.jpg" class="img-rounded width-100" alt="">
+                                <img src="images/portfolio/portfolio7.jpg" class="img-rounded img-portfolio width-100" alt="portfolio">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -326,7 +345,7 @@ focused creative solutions.</h5></div>
                         <div class="col-sm-3 wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
 
                             <a href="images/portfolio/portfolio8.jpg" class="over" data-lightbox-gallery="portfolio">
-                                <img src="images/portfolio/portfolio8.jpg" class="img-rounded width-100" alt="">
+                                <img src="images/portfolio/portfolio8.jpg" class="img-rounded img-portfolio width-100" alt="portfolio">
                                 <span class="portfolio-overlay"><span class="fa fa-search-plus"></span></span>
                             </a>
 
@@ -347,7 +366,7 @@ focused creative solutions.</h5></div>
 
                 <!-- Team Heading-->
                 <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                    <div class="title text-center"><h1>Our Team</h1></div>
+                    <div class="title text-center"><h2>Our Team</h2></div>
                     <div class="subtitle text-center "><h5>Meet Our Team</h5></div>
                     <div class="separator text-center"></div>
                 </div>
@@ -455,6 +474,95 @@ focused creative solutions.</h5></div>
                         </div><!--end team member-->
    
                     </div>
+
+                   <!-- <div class="col-sm-4">
+                        <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <img src="images/team/team7.jpg" class="img-rounded" alt="Team Member">
+                            <div class="info">
+                                <h2>Hripsime Vardanyan</h2>
+                                <h5>Front End Developer</h5>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/hripsimevardanyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://plus.google.com/u/0/105277059541551034282" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/hripsime-vardanyan-019099131?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>&lt;!&ndash;end team member&ndash;&gt;
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <img src="images/team/team3.jpg" class="img-rounded" alt="Team Member">
+                            <div class="info">
+                                <h2>Avet Sargsyan</h2>
+                                <h5>Developer</h5>
+
+                                <p class="space-top-small">
+                                </p>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/hamletvardanyan25" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>&lt;!&ndash;end team member&ndash;&gt;
+
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <img src="images/team/team6.jpg" class="img-rounded" alt="Team Member">
+                            <div class="info">
+                                <h2>Anush Hovsepyan</h2>
+                                <h5>Project Manager</h5>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>&lt;!&ndash;end team member&ndash;&gt;
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <img src="images/team/team5.jpg" class="img-rounded" alt="Team Member">
+                            <div class="info">
+                                <h2>Syuzi Maruqyan</h2>
+                                <h5>Project Manager</h5>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>&lt;!&ndash;end team member&ndash;&gt;
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <img src="images/team/team3.jpg" class="img-rounded" alt="Team Member">
+                            <div class="info">
+                                <h2>Avet Sargsyan</h2>
+                                <h5>Developer</h5>
+                                <p class="space-top-small">
+                                </p>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/hamletvardanyan25" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>&lt;!&ndash;end team member&ndash;&gt;
+
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <img src="images/team/team6.jpg" class="img-rounded" alt="Team Member">
+                            <div class="info">
+                                <h2>Anush</h2>
+                                <h5>Project Manager</h5>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>&lt;!&ndash;end team member&ndash;&gt;
+                    </div>-->
+
                       
 
                 </div><!--end row-->
@@ -469,8 +577,8 @@ focused creative solutions.</h5></div>
 
                         <!-- funfact -->
                         <div class="heading white-text wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <div class="title text-center"><h1>Some Fun Fact</h1></div>
-                            <div class="subtitle text-center "><h5></h5></div>
+                            <div class="title text-center"><h2>Some Fun Fact</h2></div>
+                            <div class="subtitle text-center "><!--<h5></h5>--></div>
                             <div class="separator text-center"></div>
                         </div>
 
@@ -478,7 +586,7 @@ focused creative solutions.</h5></div>
                             <div class="col-sm-3">
                                 <i class="fa fa-trophy"></i>
                                 <div class="statistic-counter">324</div>
-                                <div class="statistic-text">Completed Projects</div>
+                                <h3 class="statistic-text">Completed Projects</h3>
 
                             </div>
                             <div class="col-sm-3">
@@ -521,7 +629,7 @@ focused creative solutions.</h5></div>
 
                     <!--  Heading-->
                     <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div class="title text-center"><h1>Contact Us</h1></div>
+                        <div class="title text-center"><h2>Contact Us</h2></div>
                         <div class="subtitle text-center "><h5>We love to hear from you! </h5></div>
                         <div class="separator text-center"></div>
                     </div>
@@ -539,11 +647,19 @@ focused creative solutions.</h5></div>
                                     <h4>WebTech Systems</h4>
                                     <ul>
                                         <li>Garegin Njdeh 46, Yerevan</li>
-                                        <li> <abbr title="Phone">P: </abbr> +37499144112</li>
+                                        <li>P:<a href="tel:+37499144112"> +37499144112</a></li>
                                     </ul>
                                 </div>
                             </div><!-- end col-md-3 -->
-                            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:250px;width:600px;"><div id="gmap_canvas" style="height:250px;width:600px;"><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">WebTech Systems</a></div></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(40.151256,44.50147830000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>Garegin Njdeh 46<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>                    </div>
+                            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                            <div style="overflow:hidden;height:250px;width:100%;">
+                                <div id="gmap_canvas" style="height:250px;width:100%;">
+                                    <!--<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>-->
+                                    <a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">WebTech Systems</a>
+                                </div>
+                            </div>
+                            <script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(40.151256,44.50147830000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>Garegin Njdeh 46<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                        </div>
                         </div>
 
 

@@ -267,7 +267,9 @@ p {
 p:last-child {
     margin-bottom: 0px;
 }
-
+.dib{
+    display: inline-block;
+}
 
 /*text*/
 .text{
@@ -425,10 +427,34 @@ section .subtitle h5{
     font-weight: 400;
     margin-top: 10px;
 }
-
-
-
-
+.navbar-header h1 a{
+     text-indent: -99999px;
+}
+.navbar-header h1 {
+    background-image: url(../images/logo-light.png);
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-size: 59px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+div.logo_side{
+    background-color: rgba(0, 0, 0, .25);
+    height: 81px;
+    width:114px;
+    text-align: center;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+div.logo_side:hover{
+    background-color: rgb(0, 0, 0);
+}
+/*.nav-dark.navbar a.top-logo:hover{
+    background-color: #000;
+}*/
 section .title-half h1 {
     font-size: 2rem;
     line-height: 3rem;
@@ -727,14 +753,11 @@ a.top-logo{
 }
 
 
-.nav-dark a.top-logo{
+/*.nav-dark a.top-logo{
     color: #fff;
     background: rgba(0, 0, 0, 0.41);
-}
+}*/
 
-.nav-dark.navbar a.top-logo:hover{
-    background-color: #000;
-}
 
 
 
@@ -1383,15 +1406,31 @@ FeatureS & service
     font-size: 50px;
     color: #1ac6ff;
 }
-
+.feature-icon2{
+    right:0;
+}
+.feature-icon2.pull-left{
+    left: 0;
+}
+.feature-item{
+    height: 170px;
+}
 .feature-item{
     margin-bottom: 20px;
 	width:100%;
+    position: relative;
+}
+.feature-item .info-left{
+    margin-left: 100px;
+}
+.feature-item .info-right{
+    margin-right:100px;
 }
 .feature-icon2{
-    margin-left: 20px;
+    /*margin-left: 20px;
     margin-bottom: 80px;
-    margin-right: 20px;
+    margin-right: 20px;*/
+    position: absolute;
 }
 .feature-icon2 i{
 
@@ -1897,7 +1936,7 @@ testimonial
 ======================*/
 
 .testimonial {
-    background: url(../images/home.jpg) no-repeat center top fixed;
+    background: url(../images/home.gif) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size:cover;
     background-size:cover;
@@ -1968,6 +2007,7 @@ testimonial
     font-weight: 400;
     text-align: center;
     font-size: 20px;
+    margin-bottom: 0;
 }
 .testimonial-item2 .testimonial-info{
     font-size: 16px;
@@ -2261,7 +2301,6 @@ clients
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
-    -webkit-backface-visibility: none;
 }
 .client-wrapper img:hover {
     opacity: 1;
@@ -2567,15 +2606,13 @@ TEAM
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
-    -webkit-backface-visibility: none;
 }
 .team-member li i:hover {
 
     opacity: 1;
 }
 .team-member h2 {
-    margin-bottom: 0px;
-
+    margin-bottom: 0;
 }
 .team-member h5 {
     margin-bottom: 12px;
@@ -2790,13 +2827,16 @@ a.over:hover .portfolio-overlay {
     opacity:1;
     transition-delay:0s;
 }
-
-
-
-
-
-
-
+.fa-search-plus{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+}
 
 /*======================
 TWITTER FEED
@@ -2811,9 +2851,7 @@ TWITTER FEED
     /*    -webkit-background-size: length_x length_y;*/
     width:100%;
     overflow: hidden;
-
 }
-
 
 .twitter-icon {
     font-size: 80px;
@@ -3234,6 +3272,38 @@ footer
     width: 0;
     height: 150%;
 }
+div.social a:hover .fa-facebook-square:before{
+    color:#3b5998;
+}
+div.social a:hover .fa-twitter-square:before{
+    color:#1da1f2;
+}
+div.social a:hover .fa-linkedin-square:before {
+    color:#8d6cab;
+}
+div.social a:hover .fa-github-square:before {
+    color:#4078c0;
+}
+div.social a:hover .fa-google-plus-square:before{
+    color:#dd4b39;
+}
+div.social a:hover .fa-pinterest-square:before{
+    color:#bd081c;
+}
+div.social a:hover .fa-reddit-square:before{
+    color:#ff4500;
+}
+a[href="tel:+37499144112"]{
+    color: #fff;
+}
+div.heading h2{
+    font-size: 30px;
+}
+.testimonial-msg h2, .testimonial-msg h3{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
@@ -3406,4 +3476,39 @@ footer
 }
 .team-member .info h2{
     height:88px;
+}
+@media(max-width: 767px){
+    img.img-portfolio{
+        width:100%;
+    }
+    .feature-item{
+        height:auto;
+    }
+    .testimonial .overlay-img{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .map-side div{
+        width:100%;
+    }
+    #name{
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 529px){
+    h2{
+        font-size: 27px;
+    }
+}
+@media(max-width: 511px){
+    h2{
+        font-size: 25px;
+        line-height: 33px;
+    }
+}
+@media(max-width: 346px){
+    h2{
+        font-size: 23px;
+        line-height: 30px;
+    }
 }
