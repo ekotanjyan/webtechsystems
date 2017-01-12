@@ -6,6 +6,7 @@
         <title>WebTech Systems</title>
         <meta name="description" content="We have built applications based on open source frameworks, including Drupal, Wordpress, Magento, Presashop, Joomla.
 										Our expertise includes PHP, MySql, Javascript, HTML5, CSS3, node.js, angular.js, express.js, WinJS, Yii, Codeigniter, Laravel, CakePHP, FuelPHP, Zend, Symfony, Kohana and many other cool frameworks and platforms.	">
+        <meta name="keywords" content="web design, webdesign, website, Armenia, Yerevan, iOS, Android, mobile applications, web development, programming, iPad, html, css, javascript, MySQL, PHP" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="images/logo-light.png"/>
 
@@ -22,6 +23,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery_script.css.css">
         <link rel="stylesheet" href="css/style.css">
 
 
@@ -100,7 +102,7 @@
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1">
                             <div class="home-intro-subscribe">
-							<img src="images/new-year-logo-light.png" class="dib" alt="WEBTECH" style="width:300px;margin:15px 0px;"/>
+							<img src="images/big-logo-light.png" class="dib" alt="WEBTECH" style="width:300px;margin:15px 0px;"/>
                                 <!--Header text -->                               
                                 <h2>Wide range of <b>design</b> and <b>development</b> services</h2>
 								<h2>delivered with a personal experience.</h2>
@@ -376,7 +378,12 @@ focused creative solutions.</h5></div>
 
                     <div class="col-sm-4">
                         <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team1.jpg" class="img-rounded" alt="Team Member">
+                            <div id="demo" class="demo">
+                                <ul class="image-list">
+                                    <li><img src="images/team/team1.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                                </ul>
+                            </div>
+
                             <div class="info">
                                 <h2>Eduard Kotanjyan</h2>
                                 <h5>Founder &amp; CEO</h5>
@@ -396,7 +403,11 @@ focused creative solutions.</h5></div>
 
                     <div class="col-sm-4">
                         <div class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team2.jpg" class="img-rounded" alt="Team Member">
+                            <div id="demo1" class="demo">
+                                <ul class="image-list">
+                                    <li><img src="images/team/team2.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                                </ul>
+                            </div>
                             <div class="info">
                                 <h2>Jon Daveyan</h2>
                                 <h5>Lead Developer</h5>
@@ -412,7 +423,11 @@ focused creative solutions.</h5></div>
                     </div>
                     <div class="col-sm-4">
                         <div class="team-member wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team4.jpg" class="img-rounded" alt="Team Member">
+                            <div id="demo2" class="demo">
+                                <ul class="image-list">
+                                    <li><img src="images/team/team4.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                                </ul>
+                            </div>
                             <div class="info">
                                 <h2>Paruyr Hakhverdyan</h2>
                                 <h5>Developer</h5>
@@ -423,33 +438,37 @@ focused creative solutions.</h5></div>
                                     <li><a href="https://www.linkedin.com/in/paruir-hakhverdyan-00568560" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
-
                         </div><!--end team member-->
                     </div>
-                      
-                       <div class="col-sm-4">
-                       <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team5.jpg" class="img-rounded" alt="Team Member">
-                           <div class="info">
-                               <h2>Lucy Hovhannisyan</h2>
-                               <h5>Project Manager</h5>
-
-
-                               <ul class="list-inline">
-                                   <li><a href="https://www.facebook.com/lucy.hovhannisyan.9" target="_blank"><i class="fa fa-facebook"></i></a></li>
-
-                               </ul>
-                           </div>
+                    <div class="col-sm-4">
+                        <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
+                            <div id="demo3" class="demo">
+                                <ul class="image-list">
+                                    <li><img src="images/team/team7.jpg" class="swingimage  img-rounded" alt="Team Member"></li>
+                                </ul>
+                            </div>
+                            <div class="info">
+                                <h2>Hripsime Vardanyan</h2>
+                                <h5>Front End Developer</h5>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/hripsimevardanyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://plus.google.com/u/0/105277059541551034282" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/hripsime-vardanyan-019099131?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
                         </div><!--end team member-->
-                        </div>
-
+                    </div>
                     <div class="col-sm-4">
                        <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team3.jpg" class="img-rounded" alt="Team Member">
+                           <div id="demo4" class="demo">
+                               <ul class="image-list">
+                                   <li><img src="images/team/team3.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                               </ul>
+                           </div>
+
                            <div class="info">
                                <h2>Hamlet Vardanyan</h2>
                                <h5>Accountant</h5>
-
                                <p class="space-top-small">
                                </p>
                                <ul class="list-inline">
@@ -463,7 +482,12 @@ focused creative solutions.</h5></div>
              
                      <div class="col-sm-4">
                        <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team6.jpg" class="img-rounded" alt="Team Member">
+                           <div id="demo5" class="demo">
+                               <ul class="image-list">
+                                   <li> <img src="images/team/team6.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                               </ul>
+                           </div>
+
                            <div class="info">
                                <h2>Shushanna Kotanjyan</h2>
                                <h5>Project Manager</h5>
@@ -475,97 +499,70 @@ focused creative solutions.</h5></div>
    
                     </div>
 
-                   <!-- <div class="col-sm-4">
+                    <div class="col-sm-4">
                         <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team7.jpg" class="img-rounded" alt="Team Member">
-                            <div class="info">
-                                <h2>Hripsime Vardanyan</h2>
-                                <h5>Front End Developer</h5>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/hripsimevardanyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://plus.google.com/u/0/105277059541551034282" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/hripsime-vardanyan-019099131?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                            <div id="demo6" class="demo">
+                                <ul>
+                                    <li><img src="images/team/team8.jpg" class="swingimage img-rounded" alt="Team Member"></li>
                                 </ul>
                             </div>
-                        </div>&lt;!&ndash;end team member&ndash;&gt;
+                            <div class="info">
+                                <h2>Avet Sargsyan</h2>
+                                <h5>MEAN stack Developer</h5>
+                                <p class="space-top-small">
+                                </p>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/profile.php?id=100007849381178&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div><!--end team member-->
+
                     </div>
 
                     <div class="col-sm-4">
                         <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team3.jpg" class="img-rounded" alt="Team Member">
-                            <div class="info">
-                                <h2>Avet Sargsyan</h2>
-                                <h5>Developer</h5>
-
-                                <p class="space-top-small">
-                                </p>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/hamletvardanyan25" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <div id="demo7" class="demo">
+                                <ul class="image-list">
+                                    <li><img src="images/team/team9.jpg" class="swingimage img-rounded" alt="Team Member"></li>
                                 </ul>
                             </div>
-
-                        </div>&lt;!&ndash;end team member&ndash;&gt;
-
-                    </div>
-
-                    <div class="col-sm-4">
-                        <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team6.jpg" class="img-rounded" alt="Team Member">
                             <div class="info">
                                 <h2>Anush Hovsepyan</h2>
-                                <h5>Project Manager</h5>
+                                <h5>Sales manager</h5>
                                 <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.facebook.com/anush.hovsepyan.5?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 </ul>
                             </div>
-                        </div>&lt;!&ndash;end team member&ndash;&gt;
+                        </div><!--end team member-->
                     </div>
-                    <div class="col-sm-4">
-                        <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team5.jpg" class="img-rounded" alt="Team Member">
-                            <div class="info">
-                                <h2>Syuzi Maruqyan</h2>
-                                <h5>Project Manager</h5>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>&lt;!&ndash;end team member&ndash;&gt;
-                    </div>
-
-                    <div class="col-sm-4">
-                        <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team3.jpg" class="img-rounded" alt="Team Member">
-                            <div class="info">
-                                <h2>Avet Sargsyan</h2>
-                                <h5>Developer</h5>
-                                <p class="space-top-small">
-                                </p>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/hamletvardanyan25" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>&lt;!&ndash;end team member&ndash;&gt;
-
-                    </div>
-
                     <div class="col-sm-4">
                         <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <img src="images/team/team6.jpg" class="img-rounded" alt="Team Member">
+                        <div id="demo8" class="demo">
+                            <ul>
+                                <li><img src="images/team/team10.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                            </ul>
+                        </div>
                             <div class="info">
-                                <h2>Anush</h2>
-                                <h5>Project Manager</h5>
+                                <h2>Syuzi Maruqyan</h2>
+                                <h5>Sales manager</h5>
                                 <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/shushanna.kotanjyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.facebook.com/smaruqyan95?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                 </ul>
                             </div>
-                        </div>&lt;!&ndash;end team member&ndash;&gt;
-                    </div>-->
-
-                      
-
+                        </div><!--end team member-->
+                    </div>
                 </div><!--end row-->
+                <div class="team_group">
+                    <div class="mySlider">
+                        <ul>
+                            <li style="background:url(images/teamgoup/team2.jpg) -25px 0 no-repeat"></li>
+                            <li style="background:url(images/teamgoup/team3.jpg) -25px 0 no-repeat"></li>
+                        </ul>
+                    </div>
+
+                </div> <!--end team_group-->
             </div><!--end container-->
         </section>
 
@@ -667,7 +664,7 @@ focused creative solutions.</h5></div>
                             <!-- CONTACT FORM -->
                             <div class="contact-form">
                                 <div id="message"></div>
-                                <form action="scripts/contact.php" class="form-horizontal contact-1" role="form" name="contactform" id="contactform">
+                                <form action="scripts/contact.php" class="form-horizontal contact-1" name="contactform" id="contactform">
                                     <div class="form-group">
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control" name="name" id="name" placeholder="Name">
@@ -719,6 +716,7 @@ focused creative solutions.</h5></div>
 
         <!--        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/jquery.mb.YTPlayer.min.js"></script>
@@ -737,6 +735,10 @@ focused creative solutions.</h5></div>
         <script src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/twitterFetcher_min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/jquery.accordion.js"></script>
+
+
+
 
 
         <!--canvas file-->
@@ -748,12 +750,6 @@ focused creative solutions.</h5></div>
 
         <!--        canvas1 for box effect,  canvas2 for particle, canvas3 for bubble -->
         <script src="js/canvas/canvas2.js"></script>
-
-
-
-
-
-
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--        <script>
                     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -763,21 +759,62 @@ focused creative solutions.</h5></div>
                     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
                     ga('create','UA-XXXXX-X');ga('send','pageview');
                 </script>-->
+        <script>
+
+            $.fn.isVisible = function() {
+                // Am I visible?
+                // Height and Width are not explicitly necessary in visibility detection, the bottom, right, top and left are the
+                // essential checks. If an image is 0x0, it is technically not visible, so it should not be marked as such.
+                // That is why either width or height have to be > 0.
+                var rect = this[0].getBoundingClientRect();
+                return (
+                    (rect.height > 0 || rect.width > 0) &&
+                    rect.bottom >= 0 &&
+                    rect.right >= 0 &&
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.left <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            };
+
+
+            jQuery.fn.center = function () {
+
+                this.css("padding-top", $(window).height() * 0.21+"px");
+
+                return this;
+            };
+            $(document).ready(function(){
+                $('.home-intro-subscribe').center();
+
+            });
+            $('.mySlider').accordion({
+                currentWidth:'870',
+                otherWidth:'15',
+                itemDefautWidth:'500'
+            });
 
 
 
 
+           /*--swingimage--*/
+
+            $(".swingimage").hover(function(){
+                    $(this).addClass("activeimage");
+                }
+                , function(){
+
+                });
+
+            setInterval(function(){
+                $('.swingimage').each(function(){
+                    if(!$(this).isVisible())
+                    {
+                        $(this).removeClass("activeimage");
+                    }
+                });
+            },1000)
+
+
+        </script>
     </body>
-<script>
-jQuery.fn.center = function () {
-
-    this.css("padding-top", $(window).height() * 0.21+"px");
- 
-    return this;
-}
-$(document).ready(function(){
-	$('.home-intro-subscribe').center();
-
-})
-</script>
 </html>

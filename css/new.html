@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #333;
+            font-family: 'Lato', sans-serif;
+        }
+        @-webkit-keyframes swinging{
+            0%{-webkit-transform: rotate(0deg);}
+            50%{-webkit-transform: rotate(-10deg)}
+            100%{-webkit-transform: rotate(0deg);}
+        }
+
+        @keyframes swinging{
+            0%{transform: rotate(0deg);}
+            50%{transform: rotate(-10deg)}
+            100%{transform: rotate(0deg);}
+        }
+        .swingimage:hover{
+            background-color: orange;
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+            -webkit-animation: swinging 2.5s ease-in-out forwards infinite;
+            animation: swinging 1.5s  ease-in-out forwards infinite;
+            /*animation: move 6s infinite ease-in-out;*/
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            transition: all 2s ease;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box swingimage"></div>
+</body>
+</html>

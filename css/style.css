@@ -21,6 +21,9 @@
 /*==========================================
 PRE LOADER 
 ==========================================*/
+/**{
+    outline: 1px solid red;
+}*/
 .loader{
     position:fixed;
     top:0;
@@ -157,9 +160,7 @@ img{
     -moz-user-select:none;
     -webkit-user-select:none;
     -ms-user-select:none;
-    user-select:none;
     -webkit-user-drag:none;
-    user-drag:none;
 }
 a,
 a:hover,
@@ -259,13 +260,11 @@ h6 {
     margin-bottom: 14px;
 }
 p {
-    font-size: 14px;
-    line-height: 24px;
     font-size: 16px;
     line-height: 25px;
 }
 p:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .dib{
     display: inline-block;
@@ -360,7 +359,6 @@ p:last-child {
 
 
 .surface {
-    height: 100%;
     width: 100%;  
     height: 650px;
 }
@@ -382,7 +380,6 @@ p:last-child {
     -webkit-transition: all 500ms linear; 
     -moz-transition: all 500ms linear;
     -o-transition: all 500ms linear;
-    -ms-transition: all 500ms linear;
     transition: all 500ms linear; 
 }
 
@@ -392,7 +389,7 @@ p:last-child {
     font-weight: 400;
     border-radius: 3px;
 }
-.btn-md, btn-group-md>.btn {
+.btn-md, .btn-group-md>.btn {
     padding: 8px 20px;
     font-size: 18px;
 }
@@ -450,7 +447,7 @@ div.logo_side{
     transition: all 1s ease-in-out;
 }
 div.logo_side:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .5);
 }
 /*.nav-dark.navbar a.top-logo:hover{
     background-color: #000;
@@ -1166,6 +1163,9 @@ Home section
     font-size: 30px;
     color: #fff;
 
+}
+.list-inline{
+    margin-left: 0;
 }
 .home-social  .list-inline a:hover{
     color: #1ac6ff;
@@ -1936,7 +1936,7 @@ testimonial
 ======================*/
 
 .testimonial {
-    background: url(../images/home.gif) no-repeat center top fixed;
+    background: url(../images/home2-matrix.jpg) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size:cover;
     background-size:cover;
@@ -2595,8 +2595,44 @@ TEAM
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
-.team-member:hover img{
+/*.team-member:hover img{
     transform: scale(1.1, 1.1);
+}*/
+.cross2-item-title{
+    display: none;
+}
+
+.demo{
+    position: relative;
+}
+ul.list-inline{
+
+}
+.cross2-slider{
+    position: absolute;
+    margin:auto -20px!important;
+    top: -14px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    width: 40px;
+}
+.cross2-slider:before, .cross2-slider:after{
+    content: '';
+    width: 3px;
+    height: 94px;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -1px;
+    margin-bottom: 24px;
+    margin-top: 25px;
+    opacity: 0.5;
+    /*top: -97px;*/
 }
 .team-member li i {
     font-size: 20px;
@@ -2619,8 +2655,37 @@ TEAM
     color: #1ac6ff;
 }
 
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(0deg);}
+    50%{-webkit-transform: rotate(-10deg)}
+    100%{-webkit-transform: rotate(0deg);}
+}
 
+@keyframes swinging{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(-10deg)}
+    100%{transform: rotate(0deg);}
+}
+.activeimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 1.2s ease-in-out forwards infinite;
+    animation: swinging 1.2s  ease-in-out forwards infinite;
+    animation-iteration-count: 4;
+    /*animation: move 6s infinite ease-in-out;*/
+}
+.mySlider ul li:hover{
+    width:100%;
+}
+.mySlider ul{
 
+    display: inline-block;
+}
+@media(max-width: 991px){
+    .team_group{
+        display: none;
+    }
+}
 
 
 
@@ -2680,7 +2745,27 @@ FUNFACT
     margin-bottom: 15px;
     font-weight: 700;
 }
+.team_group{
+    margin-top: 20px;
+}
+@media(max-width: 1200px){
+    .funfacts-counter .statistic-counter{
+        font-size: 50px;
+    }
+}
+.mySlider {
+    width: 1000px;
+    height: 398px;
+    overflow: hidden;
+    margin: 0 auto;
+}
 
+.mySlider li {
+    width: 500px;
+    height: 398px;
+    float: left;
+    box-shadow: 0 28px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
 
 
@@ -2757,16 +2842,6 @@ Skills
     display: block;
     margin-top: 30px;
 }
-
-.call-to-action-img {
-    background: url(../images/call-to-action.jpg) no-repeat center top fixed;
-    -moz-background-size:cover;
-    background-size:cover;
-    -webkit-background-size:cover;
-    -o-background-size:cover;
-    width:100%;
-    overflow: hidden;
-}
 .call-to-action-img .btn{
     width: 220px;
     margin: auto;
@@ -2841,17 +2916,17 @@ a.over:hover .portfolio-overlay {
 /*======================
 TWITTER FEED
 ======================*/
-.tweets{
+/*.tweets{
     background: url(../images/twitter.jpg) no-repeat center top fixed;
-    /*background-size*/
+    !*background-size*!
     -moz-background-size:cover;
     background-size:cover;
     -webkit-background-size:cover;
     -o-background-size:cover;
-    /*    -webkit-background-size: length_x length_y;*/
+    !*    -webkit-background-size: length_x length_y;*!
     width:100%;
     overflow: hidden;
-}
+}*/
 
 .twitter-icon {
     font-size: 80px;
@@ -3263,7 +3338,7 @@ footer
     border: 0;
     overflow: hidden;
     /* IE 6/7 fallback */
-    *text-indent: -9999px;
+    text-indent: -9999px;
 }
 
 .ir:before {
@@ -3363,26 +3438,18 @@ div.heading h2{
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
-
 .clearfix:after {
     clear: both;
 }
-
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-
-.clearfix {
-    *zoom: 1;
-}
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -3393,12 +3460,12 @@ div.heading h2{
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
+/*@media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
+    !* Style adjustments for high resolution devices *!
+}*/
 
 /* ==========================================================================
    Print styles.
@@ -3455,10 +3522,6 @@ div.heading h2{
         max-width: 100% !important;
     }
 
-    @page {
-        margin: 0.5cm;
-    }
-
     p,
     h2,
     h3 {
@@ -3473,6 +3536,7 @@ div.heading h2{
 }
 .team-member .info{
     vertical-align: bottom;
+    margin-bottom: 40px;
 }
 .team-member .info h2{
     height:88px;

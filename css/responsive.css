@@ -227,7 +227,7 @@
     .team-member{
         width: 45%;
         float: left;
-        margin: 10px;
+        /*margin: 10px;*/
     }
     .client-wrapper2 .col-md-2 {
         float: left;
