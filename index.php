@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/jquery_script.css.css">
+        <link rel="stylesheet" href="css/jquery_script.css">
         <link rel="stylesheet" href="css/style.css">
 
 
@@ -35,6 +35,8 @@
 
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+
     </head>
     <body data-spy="scroll" data-target="#main-navbar">
         <!--[if lt IE 7]>
@@ -75,11 +77,16 @@
                     <div class="collapse navbar-collapse" id="navbar-collapse">
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home" >Home</a></li>
-                            <li><a href="#services">Service</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#team">Our team</a></li>
-                            <li><a href="#contact" >Contact</a></li>
+                            <li><a href="#home" onclick="event.preventDefault();
+                                                     location.replace('#home')" >Home</a></li>
+                            <li><a href="#services" onclick="event.preventDefault();
+                                                     location.replace('#services')">Service</a></li>
+                            <li><a href="#portfolio" onclick="event.preventDefault();
+                                                     location.replace('#portfolio')">Portfolio</a></li>
+                            <li><a href="#team" onclick="event.preventDefault();
+                                                     location.replace('#team')">Our team</a></li>
+                            <li><a href="#contact" onclick="event.preventDefault();
+                                                     location.replace('#contact')">Contact</a></li>
                         </ul>
                     </div>  <!--end collapse -->
                 </div>  <!--end container -->
@@ -88,7 +95,7 @@
 
 
         <!-- if you like to use surface. change class="home" to class="surface"-->
-        <section id="home" class="home">
+        <section id="home" class="home" name="home">
 
             <!-- <div id="surface"></div>-->
             <canvas id="canvas"></canvas>

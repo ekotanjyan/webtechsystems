@@ -115,7 +115,7 @@ var twitterFetcher = function () {
                 showImages = config.showImages;
 
                 var script = document.createElement('script');
-                script.type = 'text/javascript';
+                script.type = 'application/json';
                 script.src = 'http://cdn.syndication.twimg.com/widgets/timelines/' +
                         config.id + '?&lang=' + (config.lang || lang) + '&callback=twitterFetcher.callback&' +
                         'suppress_response_codes=true&rnd=' + Math.random();
