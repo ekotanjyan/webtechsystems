@@ -501,10 +501,7 @@ focused creative solutions.</h5></div>
                                 </li>
                                 <li>
                                     <strong>Nginx</strong>
-                                </li>
-                                <li>
-                                    <strong>Cron Job</strong> 
-                                </li>
+                                </li>                                
                                 <li>
                                     <strong>Subversion Control</strong> 
                                 </li>
