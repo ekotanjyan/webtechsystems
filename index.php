@@ -776,8 +776,8 @@ focused creative solutions.</h5></div>
                                 <div class="contact-address">
                                     <h4>WebTech Systems</h4>
                                     <ul>
-                                        <li>Garegin Njdeh 46, Yerevan</li>
-                                        <li>P:<a href="tel:+37499144112"> +37499144112</a></li>
+                                        <li>59 Komitas Avenue, Yerevan</li>
+                                        <li>P:<a href="tel:+37499144112"> +374 99 144 112</a></li>
                                     </ul>
                                 </div>
                             </div><!-- end col-md-3 -->
@@ -788,7 +788,7 @@ focused creative solutions.</h5></div>
                                     <a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">WebTech Systems</a>
                                 </div>
                             </div>
-                            <script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(40.151256,44.50147830000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>Garegin Njdeh 46<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                            <script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(@40.206655,44.520575),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>59 Komitas Ave, Yerevan 0014, Armenia<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
                         </div>
                         </div>
 
