@@ -413,7 +413,7 @@ focused creative solutions.</h5></div>
                                     <strong>50 000</strong> AMD / month
                                 </li>
                                 <li class="plan-action">
-                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                    <a href="#" class="btn btn-primary btn-lg">Call</a>
                                 </li>
                             </ul>
                         </div>
@@ -448,7 +448,7 @@ focused creative solutions.</h5></div>
                                     <strong>50 000</strong> AMD / month
                                 </li>
                                 <li class="plan-action">
-                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                    <a href="#" class="btn btn-primary btn-lg">Call</a>
                                 </li>
                             </ul>
                         </div>
@@ -483,7 +483,7 @@ focused creative solutions.</h5></div>
                                     <strong>50 000</strong> AMD / month
                                 </li>
                                 <li class="plan-action">
-                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                    <a href="#" class="btn btn-primary btn-lg">Call</a>
                                 </li>
                             </ul>
                         </div>
@@ -515,7 +515,7 @@ focused creative solutions.</h5></div>
                                     <strong>50 000</strong> AMD / month
                                 </li>
                                 <li class="plan-action">
-                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                    <a href="#" class="btn btn-primary btn-lg">Call</a>
                                 </li>
                             </ul>
                         </div>
@@ -781,7 +781,7 @@ focused creative solutions.</h5></div>
                                     </ul>
                                 </div>
                             </div><!-- end col-md-3 -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1523.5541235635978!2d44.52057497617041!3d40.20665499482223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc1197f2444d%3A0xa6236bf24f8fa16f!2sWebTech+Systems!5e0!3m2!1sen!2s!4v1516653015341" width="auto" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1523.5541235635978!2d44.52057497617041!3d40.20665499482223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc1197f2444d%3A0xa6236bf24f8fa16f!2sWebTech+Systems!5e0!3m2!1sen!2s!4v1516653015341" width="580" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         </div>
 
