@@ -447,24 +447,7 @@ focused creative solutions.</h5></div>
                             </div>
                         </div><!--end team member-->
                     </div>
-                    <div class="col-sm-4">
-                        <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <div id="demo3" class="demo">
-                                <ul class="image-list">
-                                    <li><img src="images/team/team7.jpg" class="swingimage  img-rounded" alt="Team Member"></li>
-                                </ul>
-                            </div>
-                            <div class="info">
-                                <h2>Hripsime Vardanyan</h2>
-                                <h5>Front End Developer</h5>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/hripsimevardanyan" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://plus.google.com/u/0/105277059541551034282" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/in/hripsime-vardanyan-019099131?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!--end team member-->
-                    </div>
+             
                     <div class="col-sm-4">
                        <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
                            <div id="demo4" class="demo">
@@ -505,61 +488,30 @@ focused creative solutions.</h5></div>
                         </div><!--end team member-->
    
                     </div>
+			
+		    <div class="col-sm-4">
+                       <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                           <div id="demo5" class="demo">
+                               <ul class="image-list">
+                                   <li> <img src="images/team/rafo.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                               </ul>
+                           </div>
 
-                    <div class="col-sm-4">
-                        <div class="team-member wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
-
-                            <div id="demo6" class="demo">
-                                <ul>
-                                    <li><img src="images/team/team8.jpg" class="swingimage img-rounded" alt="Team Member"></li>
-                                </ul>
-                            </div>
-                            <div class="info">
-                                <h2>Avet Sargsyan</h2>
-                                <h5>MEAN stack Developer</h5>
-                                <p class="space-top-small">
-                                </p>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/profile.php?id=100007849381178&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                            </div>
-
+                           <div class="info">
+                               <h2>Rafayel Movsisyan</h2>
+                               <h5>Full stack developer</h5>
+                               <ul class="list-inline">
+                                   <li><a href="https://www.facebook.com/TheTruth4097" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                               </ul>
+                           </div>
                         </div><!--end team member-->
-
+   
                     </div>
 
-                    <div class="col-sm-4">
-                        <div  class="team-member wow fadeIn  animated" data-wow-offset="120" data-wow-duration="1.5s">
-                            <div id="demo7" class="demo">
-                                <ul class="image-list">
-                                    <li><img src="images/team/team9.jpg" class="swingimage img-rounded" alt="Team Member"></li>
-                                </ul>
-                            </div>
-                            <div class="info">
-                                <h2>Anush Hovsepyan</h2>
-                                <h5>Sales manager</h5>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/anush.hovsepyan.5?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!--end team member-->
-                    </div>
-                    <div class="col-sm-4">
-                        <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-                        <div id="demo8" class="demo">
-                            <ul>
-                                <li><img src="images/team/team10.jpg" class="swingimage img-rounded" alt="Team Member"></li>
-                            </ul>
-                        </div>
-                            <div class="info">
-                                <h2>Syuzi Maruqyan</h2>
-                                <h5>Sales manager</h5>
-                                <ul class="list-inline">
-                                    <li><a href="https://www.facebook.com/smaruqyan95?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                            </div>
-                        </div><!--end team member-->
-                    </div>
+                 
+
+                   
+                    
                 </div><!--end row-->
                 <div class="team_group">
                     <div class="mySlider">
