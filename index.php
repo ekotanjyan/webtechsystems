@@ -781,14 +781,7 @@ focused creative solutions.</h5></div>
                                     </ul>
                                 </div>
                             </div><!-- end col-md-3 -->
-                            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-                            <div style="overflow:hidden;height:250px;width:100%;">
-                                <div id="gmap_canvas" style="height:250px;width:100%;">
-                                    <!--<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>-->
-                                    <a class="google-map-code" href="http://www.zahnarzt-rosenheim.org" id="get-map-data">WebTech Systems</a>
-                                </div>
-                            </div>
-                            <script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(@40.206655,44.520575),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.151256, 44.50147830000003)});infowindow = new google.maps.InfoWindow({content:"<b>WebTech Systems</b><br/>59 Komitas Ave, Yerevan 0014, Armenia<br/>37461 Yerevan" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1523.5541235635978!2d44.52057497617041!3d40.20665499482223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc1197f2444d%3A0xa6236bf24f8fa16f!2sWebTech+Systems!5e0!3m2!1sen!2s!4v1516653015341" width="auto" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         </div>
 
