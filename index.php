@@ -489,7 +489,7 @@ focused creative solutions.</h5></div>
    
                     </div>
 			
-		    <div class="col-sm-4">
+		   						 <div class="col-sm-4">
                        <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
                            <div id="demo5" class="demo">
                                <ul class="image-list">
@@ -502,6 +502,24 @@ focused creative solutions.</h5></div>
                                <h5>Full stack developer</h5>
                                <ul class="list-inline">
                                    <li><a href="https://www.facebook.com/TheTruth4097" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                               </ul>
+                           </div>
+                        </div><!--end team member-->
+   
+                    </div>
+									<div class="col-sm-4">
+                       <div style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInRight;" class="team-member wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                           <div id="demo5" class="demo">
+                               <ul class="image-list">
+                                   <li> <img src="images/team/davo.jpg" class="swingimage img-rounded" alt="Team Member"></li>
+                               </ul>
+                           </div>
+
+                           <div class="info">
+                               <h2>David Hunanyan</h2>
+                               <h5>FrontEnd developer</h5>
+                               <ul class="list-inline">
+                                   <li><a href="https://www.facebook.com/david.hunanyan.9" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                </ul>
                            </div>
                         </div><!--end team member-->
