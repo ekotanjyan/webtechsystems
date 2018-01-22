@@ -81,6 +81,8 @@
                                                      location.replace('#home')" >Home</a></li>
                             <li><a href="#services" onclick="event.preventDefault();
                                                      location.replace('#services')">Service</a></li>
+														<li><a href="#services" onclick="event.preventDefault();
+                                                     location.replace('#trainings')">Trainings</a></li>
                             <li><a href="#portfolio" onclick="event.preventDefault();
                                                      location.replace('#portfolio')">Portfolio</a></li>
                             <li><a href="#team" onclick="event.preventDefault();
@@ -367,6 +369,163 @@ focused creative solutions.</h5></div>
             </div><!-- /.container -->
         </section>
 
+			 <section id="trainings" class="sections">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <!--  Heading-->
+                    <div class="heading wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                        <div class="title text-center"><h1>Web Design and Development Trainings</h1></div>
+                        <div class="subtitle text-center "><h5>Register for trainings</h5></div>
+                        <div class="separator text-center"></div>
+                    </div>
+
+                    <div class="price-2">
+                        <div class="col-lg-3 col-md-3 col-xs-6">
+                            <ul class="plan plan1 wow fadeInLeft animated" data-wow-offset="120" data-wow-duration="1.5s">
+                                <li class="plan-name">
+                                    Frontend training
+                                </li>
+                                <li class="plan-price">
+                                    <strong>HTML/CSS</strong> 
+                                </li>
+															 <li class="plan-price">
+                                    <strong>Adobe Photoshop</strong> 
+                                </li>
+                                <li>
+                                    <strong>JavaScript</strong> 
+                                </li>
+                                <li>
+                                    <strong>JQuery</strong> 
+                                </li>
+                                <li>
+                                    <strong>Bootstrap</strong> 
+                                </li>
+                                <li>
+                                    <strong>Angular JS</strong>
+                                </li>
+                                <li>
+                                    <strong>50 hours</strong> / month
+                                </li>
+																<li>
+                                    <strong>50 000</strong> AMD / month
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-xs-6">
+                            <ul class="plan">
+                                <li class="plan-name">
+                                    Backend
+                                </li>
+                                <li class="plan-price">
+                                    <strong>OOP</strong> 
+                                </li>
+                                <li>
+                                    <strong>MVC</strong> 
+                                </li>
+                                <li>
+                                    <strong>PHP</strong> 
+                                </li>
+                                <li>
+                                    <strong>PHP Frameworks</strong> 
+                                </li>
+                                <li>
+                                    <strong>Node.js / MongoDB</strong>
+                                </li>
+                                <li>
+                                    <strong>MYSQL</strong> 
+                                </li>
+															 <li>
+                                    <strong>50 hours</strong> / month
+                                </li>
+															 <li>
+                                    <strong>50 000</strong> AMD / month
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-xs-6">
+                            <ul class="plan wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+                                <li class="plan-name">
+                                    CMS Development
+                                </li>
+                                <li class="plan-price">
+                                    <strong>Wordpress/WooCommerce</strong> 
+                                </li>
+                                <li>
+                                    <strong>Joomla</strong>
+                                </li>
+                                <li>
+                                    <strong>Magento</strong>
+                                </li>
+                                <li>
+                                    <strong>OpenCart</strong>
+                                </li>
+                                <li>
+                                    <strong>Prestashop</strong>
+                                </li>
+                                <li>
+                                    <strong>Drupal</strong>
+                                </li>
+																<li>
+                                    <strong>50 hours</strong> / month
+                                </li>
+																<li>
+                                    <strong>50 000</strong> AMD / month
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-xs-6">
+                            <ul class="plan wow fadeInRight animated" data-wow-offset="120" data-wow-duration="1.5s">
+                                <li class="plan-name">
+                                    Server Administration
+                                </li>
+                                <li class="plan-price">
+                                    <strong>Linux OS</strong> / month
+                                </li>
+                                <li>
+                                    <strong>Apache</strong>
+                                </li>
+                                <li>
+                                    <strong>Nginx</strong>
+                                </li>
+                                <li>
+                                    <strong>Cron Job</strong> 
+                                </li>
+                                <li>
+                                    <strong>Subversion Control</strong> 
+                                </li>
+                                <li>
+                                    <strong>Domain setup</strong> 
+                                </li>
+																<li>
+                                    <strong>50 hours</strong> / month
+                                </li>
+																<li>
+                                    <strong>50 000</strong> AMD / month
+                                </li>
+                                <li class="plan-action">
+                                    <a href="#" class="btn btn-primary btn-lg">Signup</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
         <!-- Team Section-->
