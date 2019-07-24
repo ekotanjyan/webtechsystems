@@ -720,11 +720,15 @@
 
         </div><!--end row-->
         <div class="team_group">
-            <div class="mySlider">
-                <ul>
-                    <li style="background:url(images/teamgoup/team2.jpg) -25px 0 no-repeat"></li>
-                    <li style="background:url(images/teamgoup/team3.jpg) -25px 0 no-repeat"></li>
-                </ul>
+
+            <div style="width: 100%; padding-bottom: 25%; height: 648px" data-simple-slider>
+                <img src="images/tour/1.jpg"/>
+                <img src="images/tour/2.jpg"/>
+                <img src="images/tour/3.jpg"/>
+                <img src="images/tour/4.jpg"/>
+                <img src="images/tour/5.jpg"/>
+                <img src="images/tour/6.jpg"/>
+                <img src="images/tour/11.jpg"/>
             </div>
 
         </div> <!--end team_group-->
@@ -893,8 +897,8 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/twitterFetcher_min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/jquery.accordion.js"></script>
 
+<script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
 
 <!--canvas file-->
 <!--  enbale the both line...      surface1 for blue,  surface2 for red-->
@@ -941,11 +945,8 @@
         $('.home-intro-subscribe').center();
 
     });
-    $('.mySlider').accordion({
-        currentWidth: '870',
-        otherWidth: '15',
-        itemDefautWidth: '500'
-    });
+    simpleslider.getSlider();
+
 
 
 </script>
