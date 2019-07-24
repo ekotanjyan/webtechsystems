@@ -722,8 +722,8 @@ a.top-logo{
     color:#1ac6ff;
 }
 .nav-dark.scroll-nav {
-    background: #000;
-    border-color: rgba(255, 255, 255, 0.29);
+    background: #2a023ce0;
+    border-color: rgba(255, 255, 255, 0.29)
 }
 .nav-dark.scroll-nav .navbar-nav>li>a {
     color: #FFF;
@@ -2440,7 +2440,7 @@ Pricing
     border-top: 0;
 }
 .price-2 .plan:hover li.plan-name {
-    background: #000;
+    background: rgba(85, 0, 82, 0.96);
 }
 .price-2 .btn {
     min-width: 170px;
