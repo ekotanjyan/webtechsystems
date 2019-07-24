@@ -931,7 +931,7 @@ Home section
 ======================*/
 
 .home{
-    background: url(../images/home.jpg) no-repeat center top fixed;
+    background: url(../images/bg-2.jpg) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size:cover;
     -moz-background-size:cover;
@@ -1936,7 +1936,7 @@ testimonial
 ======================*/
 
 .testimonial {
-    background: url(../images/home2-matrix.jpg) no-repeat center top fixed;
+    background: url(../images/bg-1.jpg) no-repeat center top fixed;
     /*background-size*/
     -moz-background-size:cover;
     background-size:cover;
