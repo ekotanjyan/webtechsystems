@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ababcd4c-63fe-4069-8764-06998a29338b" name="Default" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="909" column="33" selection-start-line="909" selection-start-column="33" selection-end-line="909" selection-end-column="33" />
+            <state relative-caret-position="814">
+              <caret line="860" column="12" selection-start-line="860" selection-start-column="12" selection-end-line="860" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="764">
+              <caret line="3589" column="7" selection-start-line="3589" selection-start-column="7" selection-end-line="3589" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -39,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/dark.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="115" column="19" lean-forward="true" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+            <state relative-caret-position="218">
+              <caret line="146" column="1" lean-forward="true" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -71,15 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="2442" column="17" lean-forward="true" selection-start-line="2442" selection-start-column="17" selection-end-line="2442" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -93,17 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://cdn.syndication.twimg.com/widgets/timelines/569000074533814272?&amp;lang=en&amp;callback=twitterFetcher.callback&amp;suppress_response_codes=true&amp;rnd=0.05374106301232073</find>
-      <find>a</find>
-      <find>a h</find>
-      <find>a hr</find>
-      <find>a hre</find>
-      <find>a href</find>
-      <find>a href {</find>
-      <find>nav</find>
-      <find>nav a</find>
-      <find>activ</find>
-      <find>active</find>
       <find>n</find>
       <find>na</find>
       <find>navbar</find>
@@ -123,7 +115,22 @@
       <find>.navbar-inverse .navb</find>
       <find>mySlider</find>
       <find>plan-name</find>
+      <find>/month</find>
+      <find>/ month</find>
+      <find>col-lg-3 col-md-3 col-xs-6</find>
+      <find>wordpress</find>
+      <find>node.js</find>
+      <find>col-lg-2 col-md-2 col-xs-2</find>
+      <find>href=&quot;https://docs.google.com/</find>
+      <find>plan-action</find>
+      <find>plan1</find>
+      <find>hover</find>
+      <find>location.re</find>
     </findStrings>
+    <replaceStrings>
+      <replace>col-lg-2 col-md-2 col-xs-2</replace>
+      <replace>target=&quot;_blank&quot; href=&quot;https://docs.google.com/</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\pc\Desktop\webtechsystems\js\vendor</dir>
     </dirStrings>
@@ -151,15 +158,15 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/twitterFetcher_min.js" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/dark.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1339" />
@@ -282,7 +289,7 @@
       <workItem from="1510220792738" duration="4845000" />
       <workItem from="1510226060278" duration="2244000" />
       <workItem from="1510302071502" duration="6313000" />
-      <workItem from="1563889878806" duration="5754000" />
+      <workItem from="1563889878806" duration="10752000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1563976640438</created>
@@ -319,14 +326,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563979156393</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixes">
+      <created>1564045186725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564045186725</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108699000" />
+    <option name="totallyTimeSpent" value="113697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1339" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1339" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1961326" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -566,16 +581,6 @@
         <state relative-caret-position="-4155" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="909" column="33" selection-start-line="909" selection-start-column="33" selection-end-line="909" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -585,15 +590,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/dark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="115" column="19" lean-forward="true" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+        <state relative-caret-position="218">
+          <caret line="146" column="1" lean-forward="true" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="860" column="12" selection-start-line="860" selection-start-column="12" selection-end-line="860" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="2442" column="17" lean-forward="true" selection-start-line="2442" selection-start-column="17" selection-end-line="2442" selection-end-column="17" />
+        <state relative-caret-position="764">
+          <caret line="3589" column="7" selection-start-line="3589" selection-start-column="7" selection-end-line="3589" selection-end-column="7" />
         </state>
       </provider>
     </entry>

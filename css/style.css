@@ -559,9 +559,9 @@ section .subtitle-half h5{
     border-color: #1ac6ff;
 }
 .btn-primary:hover{
-    color: #1ac6ff;
-    background-color: transparent;
-    border-color: #1ac6ff;
+    color: white !important;
+    background-color: #4CAF50;
+    border-color: green !important;
 }
 .btn-default.btn-dark {
     color: #fff;
@@ -2442,6 +2442,13 @@ Pricing
 .price-2 .plan:hover li.plan-name {
     background: rgba(85, 0, 82, 0.96);
 }
+.price-2 .plan:hover li:not(:last-child) {
+    background: rgb(226, 133, 34);
+    color: #46083c;
+}
+.price-2 .plan:hover li strong {
+    color: #46083c;
+}
 .price-2 .btn {
     min-width: 170px;
     margin-top: 10px;
@@ -3575,4 +3582,12 @@ div.heading h2{
         font-size: 23px;
         line-height: 30px;
     }
+}
+
+.price-2 div ul{
+    height: 600px;
+}
+iframe .powrMarkLink
+{
+    display: none;
 }
