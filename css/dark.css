@@ -106,6 +106,7 @@ section:nth-of-type(odd) {
 .price-2 .plan{
     background: #46083c;
     border: 1px solid #444444;
+    margin-bottom: 50px;
 }
 
 .price-2 .plan li{
