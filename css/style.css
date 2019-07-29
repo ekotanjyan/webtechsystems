@@ -3576,6 +3576,9 @@ div.heading h2{
     .team-member .info h2{
         height:67px !important;
     }
+    .teamdiv{
+        height: 393px !important;
+    }
 }
 @media(max-width: 511px){
     h2{
