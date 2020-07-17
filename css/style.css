@@ -3601,6 +3601,9 @@ div.heading h2{
 .price-2 div ul{
     height: 600px;
 }
+.price-2 div .plan_portfolio{
+    height: 775px !important;
+}
 iframe .powrMarkLink
 {
     display: none;
