@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1329117083
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 382b5a02bbe36868958db9443054a784
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunFunk/Beat/Latin Pop Drums 01_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Louder House Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Paris House Remix Over_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Layered Hi-Hat Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Machine Language Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Low Key Heat Beat 02_1.wav
+- Assets/Loops/BeatRunFunk/Beat/House Fabulous Beat 01_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Knocking Swing Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Hollow Percussion Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Leaky Faucet Beat 01_1.wav
+- Assets/Loops/BeatRunFunk/Beat/In the Cut Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Train Track House Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Low Key Heat Beat 01_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Moody Deep Beat_1.wav
+- Assets/Loops/BeatRunFunk/Beat/Higher and Higher Beat 01_1.wav
+- Assets/Loops/BeatRunFunk/Beat/LoFi Dirty Beat 03_1.wav
+Dependencies: []

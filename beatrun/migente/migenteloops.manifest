@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3326759775
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5f03f4501a78d761627c758b160b5655
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/MiGente/migenteLoops/12.wav
+- Assets/Loops/MiGente/migenteLoops/1.wav
+- Assets/Loops/MiGente/migenteLoops/3.wav
+- Assets/Loops/MiGente/migenteLoops/5.wav
+- Assets/Loops/MiGente/migenteLoops/13.wav
+- Assets/Loops/MiGente/migenteLoops/11.wav
+- Assets/Loops/MiGente/migenteLoops/10.wav
+- Assets/Loops/MiGente/migenteLoops/2.wav
+- Assets/Loops/MiGente/migenteLoops/4.wav
+- Assets/Loops/MiGente/migenteLoops/14.wav
+- Assets/Loops/MiGente/migenteLoops/9.wav
+- Assets/Loops/MiGente/migenteLoops/8.wav
+- Assets/Loops/MiGente/migenteLoops/15.wav
+- Assets/Loops/MiGente/migenteLoops/16.wav
+- Assets/Loops/MiGente/migenteLoops/6.wav
+- Assets/Loops/MiGente/migenteLoops/7.wav
+- Assets/Loops/MiGente/migenteLoops/17.wav
+Dependencies: []

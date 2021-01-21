@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4004623467
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2a6251bdb6d6c47d34f14ab58b3d676
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunFunk/light/Steinway Grand Piano_3.wav
+- Assets/Loops/BeatRunFunk/light/Kalimba Morph_1.wav
+- Assets/Loops/BeatRunFunk/light/Steinway Grand Piano_1.wav
+Dependencies: []

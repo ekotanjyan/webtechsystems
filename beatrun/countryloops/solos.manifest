@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2547217260
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2182d07c68a63d3cf3abb7f83ad564e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Lyric 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Lyric 04_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Earl Lyric 19_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Studio Cellos_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Donna Melody 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Feuertrunken Lyric 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Donna Background 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Improv 16_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Tom Lyric 04_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Dustin Background 05_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Eastern Storm Violin 08_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Blues Harmonica 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Blues Harmonica 02_1.wav
+Dependencies: []

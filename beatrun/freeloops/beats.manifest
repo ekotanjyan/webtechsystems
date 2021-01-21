@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3219071368
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d8fb1a921bbef262983c8ca66084d1fc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/Beats/Perplexing Beat 01_1.wav
+- Assets/Loops/Beats/Machine Language Beat_1.wav
+- Assets/Loops/Beats/Four Four Beat_1.wav
+- Assets/Loops/Beats/Chronograph Set Beat 01_1.wav
+- Assets/Loops/Beats/Nonstop Current Beat 01_1.wav
+- Assets/Loops/Beats/Audio 1_1.wav
+- Assets/Loops/Beats/Fast Hat Beat_1.wav
+- Assets/Loops/Beats/Mighty Kick Tech Beat_1.wav
+- Assets/Loops/Beats/Midrange Bump Kick Beat_1.wav
+- Assets/Loops/Beats/Blueprint Beat 01_1.wav
+- Assets/Loops/Beats/Organically House Beat 02_1.wav
+- Assets/Loops/Beats/Perplexing Beat 02_1.wav
+- Assets/Loops/Beats/Midnight Beat 02_1.wav
+- Assets/Loops/Beats/Laser Blaster Beat_1.wav
+- Assets/Loops/Beats/Polynesian House Beat_1.wav
+Dependencies: []

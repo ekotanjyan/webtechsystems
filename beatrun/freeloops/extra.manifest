@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1762692504
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ad195d7707b8872cf951e45a9d98962d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/Extra/Delta Disco Guitar_1.wav
+- Assets/Loops/Extra/Cascade Chord Layers_1.wav
+- Assets/Loops/Extra/Big Anthem Synth_1.wav
+- Assets/Loops/Extra/Disco Delight Lead Guitar_1.wav
+- Assets/Loops/Extra/Above And Beyond Synth_1.wav
+- Assets/Loops/Extra/Down With It Funk Guitar 01_1.wav
+- Assets/Loops/Extra/Sophistication Pizzicato Strings_1.wav
+- Assets/Loops/Extra/Hot Pursuit Guitar 01_1.wav
+- Assets/Loops/Extra/Deep Dream Synth_1.wav
+- Assets/Loops/Extra/Stone Cold Orchestra Hits_1.wav
+- Assets/Loops/Extra/Hot Pursuit Guitar 06_1.wav
+Dependencies: []

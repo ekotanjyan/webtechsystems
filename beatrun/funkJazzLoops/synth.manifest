@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3878758098
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 02741f93f730114d4a6cabcb79f61c38
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunFunk/synth/Lush Arp Layers_1.wav
+- Assets/Loops/BeatRunFunk/synth/Epic Trance Gate_1.wav
+- Assets/Loops/BeatRunFunk/synth/The Final Lead_1.wav
+- Assets/Loops/BeatRunFunk/synth/Mesmerizing Saws_1.wav
+- Assets/Loops/BeatRunFunk/synth/Swing Electro Arp_1.wav
+- Assets/Loops/BeatRunFunk/synth/Plucked Cycles_1.wav
+Dependencies: []

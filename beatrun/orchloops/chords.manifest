@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3823000360
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 96a15535cbca7f4ecf065cf6642e0992
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/NewAwsomeLoops/Chords/Chronicles Synth Lead_1.wav
+- Assets/NewAwsomeLoops/Chords/Dembow Electric Piano_1.wav
+- Assets/NewAwsomeLoops/Chords/Barricade Arpeggio_1.wav
+- Assets/NewAwsomeLoops/Chords/Delta Disco Guitar_1.wav
+- Assets/NewAwsomeLoops/Chords/Drops of Rain Synth Arp_1.wav
+- Assets/NewAwsomeLoops/Chords/Charming Bell Synth_1.wav
+- Assets/NewAwsomeLoops/Chords/Blue Sky Synth Chords 01_1.wav
+- Assets/NewAwsomeLoops/Chords/Boss Level Chimes_1.wav
+- Assets/NewAwsomeLoops/Chords/Deal Breaker Arpeggio_1.wav
+Dependencies: []

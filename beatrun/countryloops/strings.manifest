@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1981897919
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: acce089d900400cab43914015b5683c0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunCountryAudio/strings/Bluegrass Banjo_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Cheerful Mandolin 23_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Tonewheel Organ 07_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Dobro Slide_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Cheerful Mandolin 13_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Folk Mandolin 03_1.wav
+Dependencies: []

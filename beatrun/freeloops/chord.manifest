@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2463032546
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bd675374dc8b4341cb170ea22f7067c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/Chord/Wild Dreams Percussive Chords_1.wav
+- Assets/Loops/Chord/Crystal Ball Electric Piano_1.wav
+- Assets/Loops/Chord/Velvet Lounge Electric Piano_1.wav
+- Assets/Loops/Chord/Latin Pop Percussion 05_1.wav
+- Assets/Loops/Chord/Strobe Lights Electric Piano_1.wav
+- Assets/Loops/Chord/Funk Disco Piano Lead_1.wav
+- Assets/Loops/Chord/Inferno Disco Electric Piano 01_1.wav
+- Assets/Loops/Chord/Dembow Electric Piano_1.wav
+- Assets/Loops/Chord/Latin Pop Percussion 04_1.wav
+- Assets/Loops/Chord/Brooklyn Nights Synth_1.wav
+Dependencies: []

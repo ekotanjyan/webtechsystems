@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 280223196
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f9a3aea641ec56750220815c40648753
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunFunk/bass/Danger Bass_1.wav
+- Assets/Loops/BeatRunFunk/bass/Edgy Synth Bass_1.wav
+- Assets/Loops/BeatRunFunk/bass/Heavy Sync Bass_1.wav
+- Assets/Loops/BeatRunFunk/bass/Fingerstyle Electric Bass.wav
+- Assets/Loops/BeatRunFunk/bass/Fingerstyle Electric Bass_2.wav
+Dependencies: []

@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2558054219
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bass
+      Dependencies: {}
+    Info_1:
+      Name: beat
+      Dependencies: {}
+    Info_2:
+      Name: chord
+      Dependencies: {}
+    Info_3:
+      Name: light
+      Dependencies: {}
+    Info_4:
+      Name: solo
+      Dependencies: {}
+    Info_5:
+      Name: synth
+      Dependencies: {}

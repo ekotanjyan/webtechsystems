@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 4126490468
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3fc8e8b15a9ac2e83ee82200c1e52979
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/NewAwsomeLoops/Beat/Fingersnap House Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Aurora Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Atmosphere Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Before Sunrise Beat 01_1.wav
+- Assets/NewAwsomeLoops/Beat/Altered State Beat 01_1.wav
+- Assets/NewAwsomeLoops/Beat/Amber Beat 01_1.wav
+- Assets/NewAwsomeLoops/Beat/Altered State Beat 02_1.wav
+- Assets/NewAwsomeLoops/Beat/Dub Stab Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Barricade Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Ambition Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Amber Beat 02_1.wav
+- Assets/NewAwsomeLoops/Beat/Beauty Shot House Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Conga Groove 02_1.wav
+- Assets/NewAwsomeLoops/Beat/Blueprint Beat 03_1.wav
+- Assets/NewAwsomeLoops/Beat/Conga Flam Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/All Night Tech Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Alive and Kicking Beat_1.wav
+- Assets/NewAwsomeLoops/Beat/Bad Robot Beat 01_1.wav
+- Assets/NewAwsomeLoops/Beat/Almost Reverse Topper_1.wav
+Dependencies: []

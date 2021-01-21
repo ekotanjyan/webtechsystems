@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3599691492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 97322364fdf2f3cc0294db922f515b9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunCountryAudio/beat2/Headbanger Kit_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat2/Soda Bottle House Beat_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat2/Train Track House Beat_1.wav
+Dependencies: []

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3048797702
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 880036a2ef919acece5649ae771c16de
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Loops/BeatRunFunk/chord/Massive Stack_1.wav
+- Assets/Loops/BeatRunFunk/chord/Dark Chords_1.wav
+- Assets/Loops/BeatRunFunk/chord/Steinway Grand Piano_5.wav
+Dependencies: []

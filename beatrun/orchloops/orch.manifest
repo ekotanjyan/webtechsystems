@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 755367187
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 49df4b4a5e30a171deab47e701b1475c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/NewAwsomeLoops/Orch/Eastern Gold Oud 02_1.wav
+- Assets/NewAwsomeLoops/Orch/Vigilante All_1.wav
+- Assets/NewAwsomeLoops/Orch/Metro All_1.wav
+- Assets/NewAwsomeLoops/Orch/Suspended String Trill 02_1.wav
+- Assets/NewAwsomeLoops/Orch/Countdown All_1.wav
+- Assets/NewAwsomeLoops/Orch/Proving Ground Strings 01_1.wav
+- Assets/NewAwsomeLoops/Orch/Alliance All_1.wav
+- Assets/NewAwsomeLoops/Orch/High Hopes Pizzicato Strings 03_1.wav
+- Assets/NewAwsomeLoops/Orch/Abandoned Brass Stabs_1.wav
+- Assets/NewAwsomeLoops/Orch/Ricochet All_1.wav
+- Assets/NewAwsomeLoops/Orch/Power Low Strings 05_1.wav
+- Assets/NewAwsomeLoops/Orch/Breathless Harp_1.wav
+- Assets/NewAwsomeLoops/Orch/Gaining Ground String Arp 04_1.wav
+- Assets/NewAwsomeLoops/Orch/Breathless Piano_1.wav
+- Assets/NewAwsomeLoops/Orch/Antidote Hi Strings 01_1.wav
+- Assets/NewAwsomeLoops/Orch/Orchestra Strings 27_1.wav
+Dependencies: []

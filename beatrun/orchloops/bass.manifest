@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 4127240546
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a49dd8e888ef7290931548513c92524
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/NewAwsomeLoops/Bass/Complex Loop Bass_1.wav
+- Assets/NewAwsomeLoops/Bass/Chronograph Set Beat 01_1.wav
+- Assets/NewAwsomeLoops/Bass/Bright Filter Bass_1.wav
+- Assets/NewAwsomeLoops/Bass/Descending Blues Bass 02_1.wav
+- Assets/NewAwsomeLoops/Bass/Agile Funk Synth Bass 01_1.wav
+- Assets/NewAwsomeLoops/Bass/Ambient Sub Bass_1.wav
+- Assets/NewAwsomeLoops/Bass/Amber Long Bass 02_1.wav
+- Assets/NewAwsomeLoops/Bass/Airy Phased Synth_1.wav
+- Assets/NewAwsomeLoops/Bass/Analog Synth Funk Bass_1.wav
+- Assets/NewAwsomeLoops/Bass/Bumping Disco Bass 02_1.wav
+Dependencies: []

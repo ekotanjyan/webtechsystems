@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 4083422353
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8defcb882c1ca391917491131f280870
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/NewAwsomeLoops/Synth/Data Strum Synth Layers_1.wav
+- Assets/NewAwsomeLoops/Synth/Dubstep Boomerang Synth 02_1.wav
+- Assets/NewAwsomeLoops/Synth/Building Blocks Synth_1.wav
+- Assets/NewAwsomeLoops/Synth/Cutting Theme Synth_1.wav
+- Assets/NewAwsomeLoops/Synth/Drive Slow Synth Lead_1.wav
+- Assets/NewAwsomeLoops/Synth/Blue Skies Synth Lead 01_1.wav
+- Assets/NewAwsomeLoops/Synth/Bittersweet Pluck Synth 01_1.wav
+- Assets/NewAwsomeLoops/Synth/Blue Skies Synth Lead 03_1.wav
+- Assets/NewAwsomeLoops/Synth/Daylight Synth Arp_1.wav
+- Assets/NewAwsomeLoops/Synth/Boss Level Arpeggio_1.wav
+- Assets/NewAwsomeLoops/Synth/Chart Topper Synth Glide_1.wav
+- Assets/NewAwsomeLoops/Synth/Dubstep Reactor Laser Lead 01_1.wav
+- Assets/NewAwsomeLoops/Synth/Comic Relief Synth_1.wav
+Dependencies: []
