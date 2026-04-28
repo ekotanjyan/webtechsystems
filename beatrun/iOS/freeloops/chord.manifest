@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 407761454
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 248f0dae8484ad90c198a804f4968eb4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 029dbdf9b13d2b1cf4e80ddadb969054
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Loops/Chord/Latin Pop Percussion 05_1.wav
+- Assets/Loops/Chord/Latin Pop Percussion 04_1.wav
+- Assets/Loops/Chord/Strobe Lights Electric Piano_1.wav
+- Assets/Loops/Chord/Velvet Lounge Electric Piano_1.wav
+- Assets/Loops/Chord/Brooklyn Nights Synth_1.wav
+- Assets/Loops/Chord/Crystal Ball Electric Piano_1.wav
+- Assets/Loops/Chord/Funk Disco Piano Lead_1.wav
+- Assets/Loops/Chord/Inferno Disco Electric Piano 01_1.wav
+- Assets/Loops/Chord/Wild Dreams Percussive Chords_1.wav
+- Assets/Loops/Chord/Dembow Electric Piano_1.wav
+Dependencies: []

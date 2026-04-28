@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 2740892334
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 88cf8de26079ea2664d86bdb29aec741
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6b752b8481253efe574f4f0dc5ae8074
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Loops/BeatRunCountryAudio/strings/Tonewheel Organ 07_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Cheerful Mandolin 23_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Cheerful Mandolin 13_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Folk Mandolin 03_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Bluegrass Banjo_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Dobro Slide_1.wav
+Dependencies: []

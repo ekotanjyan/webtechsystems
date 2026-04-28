@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 3326233605
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4614ec66240fb2fdd53911bac9fbfdbe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 281aed993e721b6d39d1575fdcda7f4d
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Loops/BeatRunCountryAudio/bass/Inst 15_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_2.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_3.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Donna Background 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Dustin Background 05_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Inst 11_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat2/Headbanger Kit_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Feuertrunken Lyric 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Improv 16_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Tonewheel Organ 07_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Earl Lyric 19_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Tom Lyric 04_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Cheerful Mandolin 23_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 06_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Rockabilly Upright 06_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Studio Cellos_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 08_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Big Maracas 05_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Middy Dly Percussion_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Cheerful Mandolin 13_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Eastern Storm Violin 08_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Folk Mandolin 03_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat2/Train Track House Beat_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Lyric 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Inst 10_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Bluegrass Banjo_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat2/Soda Bottle House Beat_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Donna Melody 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Blues Harmonica 02_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 12_1.wav
+- Assets/Loops/BeatRunCountryAudio/strings/Dobro Slide_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Blues Harmonica 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_5.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Lyric 04_1.wav
+Dependencies: []

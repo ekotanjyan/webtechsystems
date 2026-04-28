@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 3581047409
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ab663ecec562f512bde064d2064d327b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 93b25256090f28c4cb557187ad4e6cb3
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Loops/BeatRunCountryAudio/bass/Inst 15_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_2.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_3.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Inst 11_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Rockabilly Upright 06_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Inst 10_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_1.wav
+- Assets/Loops/BeatRunCountryAudio/bass/Subby Bass_5.wav
+Dependencies: []

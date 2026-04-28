@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 87643402
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cc37513ece75d977f9563f1a999d77ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 83082baeff82fbf634d93fef9d7f4229
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 06_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 08_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Big Maracas 05_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Middy Dly Percussion_1.wav
+- Assets/Loops/BeatRunCountryAudio/beat1/Brush Train Drumset 12_1.wav
+Dependencies: []

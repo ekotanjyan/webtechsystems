@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 3024888378
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bass
+      Dependencies: {}
+    Info_1:
+      Name: beats
+      Dependencies: {}
+    Info_2:
+      Name: chord
+      Dependencies: {}
+    Info_3:
+      Name: extra
+      Dependencies: {}

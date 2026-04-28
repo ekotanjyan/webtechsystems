@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 3404346785
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1459eee4c8b67063c003fb981cb71cdd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 511844aa67df5fa130c67ed27e776448
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Loops/BeatRunCountryAudio/solos/Donna Background 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Dustin Background 05_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Feuertrunken Lyric 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Improv 16_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Tom Lyric 04_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Earl Lyric 19_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Studio Cellos_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Eastern Storm Violin 08_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Lyric 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Donna Melody 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Blues Harmonica 02_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Blues Harmonica 01_1.wav
+- Assets/Loops/BeatRunCountryAudio/solos/Devon Lyric 04_1.wav
+Dependencies: []

@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.10f1
+CRC: 2937605167
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 00883f3b4fd49ae59a424f69c3559eeb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 63b46718f824dca122d929879134bc21
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Loops/bass/Crosstown Disco Bass 01_1.wav
+- Assets/Loops/bass/Dance Floor Lights Bass 01_1.wav
+- Assets/Loops/bass/Get Moving Bass 01_1.wav
+- Assets/Loops/bass/Deeper Meaning Bass 02_1.wav
+- Assets/Loops/bass/Liquid Flow Synth Bass 04_1.wav
+- Assets/Loops/bass/Bumping Disco Bass 01_1.wav
+- Assets/Loops/bass/Hip Hop Mic It Bass 01_1.wav
+- Assets/Loops/bass/Low Gravity Organ Bass 02_1.wav
+- Assets/Loops/bass/Low Gravity Organ Bass 01_1.wav
+- Assets/Loops/bass/Counterpoint Synth_1.wav
+- Assets/Loops/bass/Higher and Higher Bass_1.wav
+Dependencies: []
